@@ -1,6 +1,6 @@
 import React from 'react';
-import type { ScheduleRow, ScheduleSummary } from '../types';
-import { formatCurrency, formatPercent, formatNumber } from '../utils/formatters';
+import type { ScheduleRow, ScheduleSummary } from '../types.ts';
+import { formatCurrency, formatPercent, formatNumber } from '../utils/formatters.ts';
 
 interface AmortizationTableProps {
   scheduleRows: ScheduleRow[];

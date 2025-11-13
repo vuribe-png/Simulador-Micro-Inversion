@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import type { SimulationInput } from '../types';
+import type { SimulationInput } from '../types.ts';
 import type flatpickr from 'flatpickr';
 
 interface SimulationFormProps {

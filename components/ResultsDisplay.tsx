@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useRef } from 'react';
 // FIX: Removed ChartTypeRegistry as it's not used after removing the failing module augmentation.
 import type { Chart, ChartConfiguration, ChartData as ChartJSData } from 'chart.js';
-import type { CalculationResult } from '../types';
-import { AmortizationTable } from './AmortizationTable';
-import { formatCurrency, formatPercent, formatNumber } from '../utils/formatters';
+import type { CalculationResult } from '../types.ts';
+import { AmortizationTable } from './AmortizationTable.tsx';
+import { formatCurrency, formatPercent, formatNumber } from '../utils/formatters.ts';
 
 // FIX: Removed the 'chart.js' module augmentation. It was causing a "module not found" error
 // because Chart.js is loaded from a CDN and type definitions are not resolved as a local module.

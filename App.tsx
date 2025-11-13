@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
-import type { SimulationInput, CalculationResult } from './types';
-import SimulationForm from './components/SimulationForm';
-import ResultsDisplay from './components/ResultsDisplay';
-import { calculateSchedule } from './utils/calculations';
+import type { SimulationInput, CalculationResult } from './types.ts';
+import SimulationForm from './components/SimulationForm.tsx';
+import ResultsDisplay from './components/ResultsDisplay.tsx';
+import { calculateSchedule } from './utils/calculations.ts';
 
 const getInitialInputs = (): SimulationInput => {
   const today = new Date();
