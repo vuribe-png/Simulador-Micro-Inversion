@@ -1,0 +1,5 @@
+{
+  "name": "Simulador de Inversión",
+  "description": "Simula la rentabilidad de tu inversión en préstamos para PYMEs. Compara tus ganancias potenciales contra depósitos a plazo fijo y visualiza el cronograma de pagos detallado.",
+  "requestFramePermissions": []
+}
